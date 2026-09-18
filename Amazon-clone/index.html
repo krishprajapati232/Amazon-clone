@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=language"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Amazon clone</title>
+</head>
+<body>
+<div class="navbar-main">
+    <div class="navbar-container1">
+      <div class="left-container">
+        <div class="logo-container">
+        <a href="#"> <img src="image/amazon_logo.png" class="logo">
+        <span class="logo-locate">.in</span>
+      </a>
+        </div>
+        <div class="navbar-location-slot">
+          <div class="location-slot">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="address">
+            <span class="address-line1"> Delivering to New Delhi 110003</span>
+            <span class="address-line2">Update location</span>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-search-bar">
+        <div class="search-bar">
+        <div class="selection-box">
+          <select id="select-field">
+             <option selected="selected" value="search-alias=aps">All Categories</option>
+        <option value="search-alias=alexa-skills">Alexa Skills</option>
+        <option value="search-alias=amazon-devices">Amazon Devices</option>
+        <option value="search-alias=fashion">Amazon Fashion</option>
+        <option value="search-alias=nowstore">Amazon Fresh</option>
+        <option value="search-alias=amazon-pharmacy">Amazon Pharmacy</option>
+        <option value="search-alias=appliances">Appliances</option>
+        <option value="search-alias=mobile-apps">Apps &amp; Games</option>
+        <option value="search-alias=audible">Audible Audiobooks</option>
+        <option value="search-alias=baby">Baby</option>
+        <option value="search-alias=beauty">Beauty</option>
+        <option value="search-alias=stripbooks">Books</option>
+        <option value="search-alias=automotive">Car &amp; Motorbike</option>
+        <option value="search-alias=apparel">Clothing &amp; Accessories</option>
+        <option value="search-alias=collectibles">Collectibles</option>
+        <option value="search-alias=computers">Computers &amp; Accessories</option>
+        <option value="search-alias=todays-deals">Deals</option>
+        <option value="search-alias=electronics">Electronics</option>
+        <option value="search-alias=furniture">Furniture</option>
+        <option value="search-alias=lawngarden">Garden &amp; Outdoors</option>
+        <option value="search-alias=gift-cards">Gift Cards</option>
+        <option value="search-alias=grocery">Grocery &amp; Gourmet Foods</option>
+        <option value="search-alias=hpc">Health &amp; Personal Care</option>
+        <option value="search-alias=kitchen">Home &amp; Kitchen</option>
+        <option value="search-alias=industrial">Industrial &amp; Scientific</option>
+        <option value="search-alias=jewelry">Jewellery</option>
+        <option value="search-alias=digital-text">Kindle Store</option>
+        <option value="search-alias=luggage">Luggage &amp; Bags</option>
+        <option value="search-alias=luxury-beauty">Luxury Beauty</option>
+        <option value="search-alias=dvd">Movies &amp; TV Shows</option>
+        <option value="search-alias=digital-music">MP3 Music</option>
+        <option value="search-alias=popular">Music</option>
+        <option value="search-alias=mi">Musical Instruments</option>
+        <option value="search-alias=office-products">Office Products</option>
+        <option value="search-alias=pets">Pet Supplies</option>
+        <option value="search-alias=instant-video">Prime Video</option>
+        <option value="search-alias=shoes">Shoes &amp; Handbags</option>
+        <option value="search-alias=software">Software</option>
+        <option value="search-alias=sporting">Sports, Fitness &amp; Outdoors</option>
+        <option value="search-alias=specialty-aps-sns">Subscribe &amp; Save</option>
+        <option value="search-alias=home-improvement">Tools &amp; Home Improvement</option>
+        <option value="search-alias=toys">Toys &amp; Games</option>
+        <option value="search-alias=under-ten-dollars">Under ₹500</option>
+        <option value="search-alias=videogames">Video Games</option>
+        <option value="search-alias=watches">Watches</option>
+          </select>
+        </div>
+        <div class="search-box">
+          <input type="text" id="search" placeholder="Search Amazon.in">
+        </div>
+        <div class="search-button">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      </div>
+      </div>
+      <div class="right-container">
+        <div class="nav-language">
+          <div class="language">
+          <img src="india flag.png" alt="flag" class="flag">
+        <div class="choose-language">EN</div>
+      </div>
+        </div>
+
+        <div class="account-info">
+          <div class="nav-sign">Hello, sign in </div>
+          <div class="nav-account-info">Account & Lists</div>
+        </div>
+        <div class="return-order">
+         <div class="nav-return">Returns</div>  
+         <div class="nav-order"> & Orders</div>
+        </div>
+        <div class="cart">
+          <div class="cart-logo">
+          <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="cart-text">Cart</div>
+        </div>
+      </div>
+    </div>
+  <div class="navbar-container2">
+    <div class="left-container2">
+      <div class="menu"> <i class="fa-solid fa-bars"></i></div>
+      <div class="menu-option">All</div>
+    </div>
+    <div class="fill-container2">
+      <ul class="nav-ul">
+        <li class="nav-li">
+          <div class="nav-div">
+         <a href="" class="nav-a">Fresh</a>
+          </div>
+        </li>
+
+        <li class="nav-li">
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              MX Player
+        </a></div></li>
+        <li class="nav-li">
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Sell
+        </a></div></li><li class="nav-li">
+          <div class="nav-div">
+            <a href="" class="nav-a">
+            Best Seller
+        </a></div></li><li class="nav-li">
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Mobiles
+        </a></div></li><li class="nav-li">
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Today's Deals
+        </a></div></li><li class="nav-li">
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Prime
+        </a></div></li><li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Customer Service
+        </a></div></li><li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Fashion
+        </a></div></li><li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              New Releases
+        </a></div></li><li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+             Amazon Pay 
+        </a></div></li><li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+              Electronics
+        </a></div></li>
+        <li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+                Home & Kitchen
+        </a></div></li>
+        <li>
+          <div class="nav-div">
+            <a href="" class="nav-a">
+            Computers
+        </a></div></li>
+      </ul>
+    </div>
+    <div class="right-container2">
+    </div>
+  </div>
+</div>
+<div class="pagecontent">
+<div class="slideshow-container">
+     <img src="image/poster2.jpg" style="width:100%" class="bannerimg">
+     <div class="bannerbutton">
+     <div class="leftbutton">
+  <div class="prev" >&#10094;</div>
+   </div>
+   <div class="rightbutton">
+  <div class="next" onclick="plusSlides(1)">&#10095;</div>
+   </div>
+  </div>
+</div>
+<div class="itemArea">
+  <div class="productBox">
+    <div class="shopItem-heading">
+    Appliances for your home | Up to 55% off
+    </div>
+    <div class="imagecontainer">
+      <img src="image/aircondition.jpg" alt="" class="shopItem">
+        <img src="image/refrigrator.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Air conditioners</div>
+    <div class="productDetail">Refrigerators</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/microwave.jpg" alt="" class="shopItem">
+        <img src="image/washing machine.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Microwaves</div>
+    <div class="productDetail">Washing machines</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore1">
+ See more
+  </div>
+  </div>
+  <div class="productBox"> 
+     <div class="shopItem-heading">
+    Revamp your home in style
+     </div>
+  <div class="imagecontainer">
+      <img src="image/carpet.jpg" alt="" class="shopItem">
+        <img src="image/toy.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Cushion covers, bedsheets & more</div>
+    <div class="productDetail">Figurines, vasees & more</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/homestorage.jpg" alt="" class="shopItem">
+        <img src="image/homelighting.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Home storage</div>
+    <div class="productDetail">Lighting solutions</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore2">
+ Explore all
+  </div>
+  </div>
+  <div class="productBox"> 
+      <div class="shopItem-heading">
+   PlayStation 5 slim & Accessories | No Cost EMI*
+     </div>
+  <div class="imagecontainer">
+      <img src="image/ps5.jpg" alt="" class="shopItem">
+        <img src="image/ps52.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">PS5 Slim digital edition</div>
+    <div class="productDetail">PS5 Slim disc edition</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/ps53.jpg" alt="" class="shopItem">
+        <img src="image/ps54.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">PS5 Slim Fortnite digital edition</div>
+    <div class="productDetail">PS5 DualSense Wireless Controller</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore3">
+ Explore all
+  </div>
+  </div>
+   <div class="productBox">  <div class="shopItem-heading">
+   Get your desired TV screen size | Starting ₹6,999
+     </div>
+  <div class="imagecontainer">
+      <img src="image/tv.jpg" alt="" class="shopItem">
+        <img src="image/tv5.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Budget TVs | Save extra with No Cost EMI</div>
+    <div class="productDetail">4K TVs | Up to 24 months No Cost EMI</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/tv3.jpg" alt="" class="shopItem">
+        <img src="image/tv4.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Big Screens | Free installation</div>
+    <div class="productDetail">Ultra Premium TVs | Up to 50% off</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore4">
+ Explore all
+  </div></div>
+  <div class="productBox">  <div class="shopItem-heading">
+  Automotive essentials | Up to 60% off
+     </div>
+  <div class="imagecontainer">
+      <img src="image/car clear.jpg" alt="" class="shopItem">
+        <img src="image/tyer clear.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Budget TVs | Save extra with No Cost EMI</div>
+    <div class="productDetail">4K TVs | Up to 24 months No Cost EMI</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/helmet.jpg" alt="" class="shopItem">
+        <img src="image/vaccum.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Big Screens | Free installation</div>
+    <div class="productDetail">Ultra Premium TVs | Up to 50% off</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore5">
+ Explore all
+  </div></div>
+  <div class="productBox">  <div class="shopItem-heading">
+Starting ₹149 | Headphones
+     </div>
+  <div class="imagecontainer">
+      <img src="image/boat.jpg" alt="" class="shopItem">
+        <img src="image/boult.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Starting ₹249 | boAt</div>
+    <div class="productDetail">Starting ₹349 | boult</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/noise.jpg" alt="" class="shopItem">
+        <img src="image/zebronics.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Starting ₹649 | Noise</div>
+    <div class="productDetail">Starting ₹149 | Zebronics</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore6">
+ Explore all
+  </div></div><div class="productBox">  <div class="shopItem-heading">
+Min. 40% off | Fun toys for little ones | Amazon brands
+     </div>
+  <div class="imagecontainer">
+      <img src="image/toy2.jpg" alt="" class="shopItem">
+        <img src="image/toy1.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Min. 40% off | soft toys</div>
+    <div class="productDetail">Min. 40% off | Indoor games</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/toy3.jpg" alt="" class="shopItem">
+        <img src="image/toy4.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Min. 40% off | Ride ons</div>
+    <div class="productDetail">Min. 40% off | outdoor games</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore7">
+  See more
+  </div></div><div class="productBox">  <div class="shopItem-heading">
+ Starting ₹199 | Amazon Brands & more
+     </div>
+  <div class="imagecontainer">
+      <img src="image/bedsheet.jpg" alt="" class="shopItem">
+        <img src="image/curtain.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Starting ₹199 | Bedsheets</div>
+    <div class="productDetail">Starting ₹199 | Curtains</div>
+  </div>
+   <div class="imagecontainer">
+      <img src="image/iron table.jpg" alt="" class="shopItem">
+        <img src="image/home decor.jpg" alt="" class="shopItem ">
+    </div>
+    <div class="productDetail-text">
+    <div class="productDetail">Minimum 40% off | Ironing board & more</div>
+    <div class="productDetail">Up to 60% off | Home decor</div>
+  </div>
+  <div class="shopItem-seemore" id="seemore8">
+  See more offer
+  </div></div>
+  
+</div>
+<div class="itemAreaScrolling">
+  <div class="itemAreaScrollingHeading">
+    <div class="heading-text">
+    Up to 80% off | Trending products from Indian artisans
+    </div>
+    <div class="itemAreaScrolling-text">See all Offer</div>
+  </div>
+  <div class="picture-area">
+<ul>
+  <li>
+    <img src="image/chairsofa.jpg" alt="">
+  </li>
+   <li>
+    <img src="image/cabinet.jpg" alt="">
+  </li>
+   <li>
+    <img src="image/jar.jpg" alt="">
+  </li>
+   <li>
+    <img src="image/dinning table.jpg" alt="">
+  </li>
+   <li>
+    <img src="image/bed.jpg" alt="">
+  </li>
+   <li>
+    <img src="image/tablechair.jpg" alt="">
+  </li>
+ </ul>
+  </div>
+  <div class="itemAreaScrollingButton">
+  <div class="itemAreaScrollingleftButton">&#10094;</div>
+  <div class="itemAreaScrollingrightButton">&#10095;</div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footerBackToTopText">
+    Back to top
+  </div>
+<div class="footerdetail"> 
+ <div class="gettoknowus">
+  <div id="gettoknowustext" class="footerdetailheading">Get to Know Us</div>
+  <ul>
+    <li>About Amazon</li>
+  <li>Careers</li>
+  <li>Press Releases</li>
+  <li>Amazon Science</li>
+  </ul>
+ </div>
+ <div id="connectwithus" >
+  <div class="footerdetailheading">
+  Connect with Us
+  </div>
+    <ul>
+      <li>Fackbook</li>
+      <li>Twitter</li>
+      <li>Instagram</li>
+    </ul>
+ </div>
+ <div class="makemoneywithus">
+  <div class="footerdetailheading">
+ Make Money With Us
+  </div>
+    <ul>
+      <li>Sell on Amazon</li>
+      <li>Sell under Amazon Acclerator</li>
+      <li>Protect and Bulid your Brand</li>
+      <li>Amazon Global Seller</li>
+      <li>Supply to Amazon</li>
+      <li>Become an Affiliate</li>
+      <li>Fulfilment by Amazon</li>
+      <li>Advertise Your Products</li>
+      <li>Amazon Pay on Merchants</li>
+    </ul>
+ </div>
+ <div class="letushelpyou">
+  <div class="footerdetailheading">
+Let Us Help You
+  </div>
+    <ul>
+      <li>Your Account</li>
+      <li>Returns Center</li>
+      <li>Recalls and Product Safety Alerts</li>
+      <li>100% Purchase Protection</li>
+      <li>Amazon App Download</li>
+      <li>Help</li>
+    </ul>
+ </div>
+</div>
+ <div class="footerregiondetail">
+  <img src="image/amazon_logo.png" alt="" class="logo"  id="footerlogo">
+  <div class="footerlanguageoption">
+    <div class="material-symbols-outlined">
+language
+    </div>
+<div class="defaultfooterlanguage">English</div>
+  </div>
+  <div class="footer-country">
+    <div class="footerflag">
+      <img src="image/india flag.png" alt="" class="flag">
+    </div>
+      <div class="countryname">
+        India
+      </div>
+  </div>
+ </div>
+ <div class="footer-link">
+<div class="amazonmorecompany">
+  <ul>
+    <li class="footer-linkdetail">
+   <h5 class="companyname"> AbeBooks</h5>
+   <span class="companydetail">Books, art<br>
+& collectibles</span>
+    </li>
+      <li class="gap"></li>
+     <li class="footer-linkdetail">
+        <h5 class="companyname"> Amazon Web Services</h5>
+   <span class="companydetail">
+    Scalable Cloud<br>
+Computing Services</span>
+    </li>
+      <li class="gap"></li>
+     <li class="footer-linkdetail">
+        <h5 class="companyname"> Audible</h5>
+   <span class="companydetail">
+    Download<br>
+    Audio Books </span>
+    </li>
+    <li class="gap"></li>
+     <li class="footer-linkdetail">
+        <h5 class="companyname"> IMDb</h5>
+   <span class="companydetail">
+   Movies, TV<br>
+         & Celebrities</span>
+    </li>
+  </ul>
+  <ul>
+    <li class="footer-linkdetail">
+   <h5 class="companyname"> Shopbop</h5>
+   <span class="companydetail">Designer<br>
+  Fashion Brands</span>
+    </li>
+      <li class="gap"></li>
+     <li class="footer-linkdetail">
+        <h5 class="companyname">Amazon Bussiness</h5>
+   <span class="companydetail">
+    Everything for <br>
+Your Bussiness</span>
+    </li>
+      <li class="gap"></li>
+     <li class="footer-linkdetail">
+        <h5 class="companyname"> Prime Now</h5>
+   <span class="companydetail">
+   2-Hour Delivery<br>
+    on Everyday Items</span>
+    </li>
+    <li class="gap"></li>
+     <li class="footer-linkdetail">
+        <h5 class="companyname"> Amazon Prime Music</h5>
+   <span class="companydetail">
+    100 million songs, ad-free <br>
+         Over 15 million podcast episodes</span>
+    </li>
+  </ul>
+</div>
+ </div>
+ <div class="copyrightcontent">
+  <ul>
+    <li>Conditions of Use & Sale</li>
+    <li>
+      Privacy Notice
+    </li>
+    <li>Interest-Based Ads</li>
+  </ul>
+  <spam><i class="fa-regular fa-copyright"></i>
+    1996-2025, Amazon.com, Inc. or its affiliates</spam>
+ </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
